@@ -1,2 +1,2 @@
 # MySpend
-Simple application for accounting personal spend. 
+React-redux application for accounting personal spend. 
