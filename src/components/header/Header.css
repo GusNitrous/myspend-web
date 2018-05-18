@@ -1,0 +1,38 @@
+.header {
+    position: fixed;
+    height: 70px;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    max-width: 1170px;
+    background-color: #ffffff;
+    color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.header .start-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 200px;
+    line-height: 70px;
+    font-size: 22px;
+    background-color: #313742;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.header .start-bar i {
+    color: #4dbfea;
+}
+
+.header .app-name {
+    cursor: default;
+    user-select: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 5px;
+}

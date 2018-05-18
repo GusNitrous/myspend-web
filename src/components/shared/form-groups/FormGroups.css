@@ -1,0 +1,36 @@
+/**
+ * Checkbox && Radio labels
+ */
+.check-label-box {
+    display: block;
+    user-select: none;
+}
+
+.check-label-box input {
+    display: none;
+}
+
+.check-label-box.horizontal-check {
+    margin-left: -12px;
+}
+
+.check-label-box span {
+    display: block;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+span.label-text {
+    margin-left: 46%;
+}
+
+.check-label-box .label-state {
+    color: #727c8e;
+    margin-left: 29px;
+}
+
+.fa.checked {
+    color: #59bce2;
+}

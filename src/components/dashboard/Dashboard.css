@@ -1,0 +1,20 @@
+.app-container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1170px;
+    min-width: 520px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.content-page {
+    margin-left: 200px;
+    overflow: hidden;
+}
+
+.content-page > .content {
+    margin-top: 70px;
+    padding: 20px 5px 15px 5px;
+}

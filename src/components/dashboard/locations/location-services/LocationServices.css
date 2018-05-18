@@ -1,0 +1,66 @@
+.service-list {
+    height: 205px;
+    overflow: auto;
+    border-radius: 4px;
+}
+
+.service-list .list-group {
+    margin-bottom: 0;
+}
+
+.service-list .list-group-item {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.service-list .list-group-item:hover {
+    background: #fafafa;
+}
+
+.service-list .list-group-item:first-child {
+    border-top: none;
+
+}
+
+.service-list .list-group-item:last-child {
+    border-bottom: none;
+}
+
+/**
+ * Стили scrollbar'a для контейнера сервисов
+ * (WebKit only)
+ */
+.service-list::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.service-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+.service-list::-webkit-scrollbar-thumb:hover {
+    background-color: #ccc;
+}
+
+.service-list::-webkit-scrollbar-thumb:active {
+    background-color: #4dbfea;
+}
+
+.service-list::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+.service-row-title {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.placeholder-service {
+    padding-top: 80px;
+    opacity: .6;
+}

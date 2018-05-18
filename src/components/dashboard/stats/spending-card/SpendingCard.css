@@ -1,0 +1,35 @@
+.panel-spend-card .panel-body {
+    position: relative;
+}
+
+.panel-spend-card .spend-card-logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 16rem;
+    vertical-align: middle;
+    border: solid 5px #4dbfea;
+    text-align: center;
+}
+
+.spend-card-logo i {
+    margin: 6px auto;
+    font-size: 10rem;
+}
+
+.spend-card-desc {
+    float: right;
+}
+
+.spend-card-desc span {
+    display: block;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.spend-card-desc .amount {
+    font-size: 4em;
+    font-weight: 600;
+}

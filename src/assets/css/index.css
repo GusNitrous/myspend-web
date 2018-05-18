@@ -1,0 +1,117 @@
+body {
+    color: #4c5667;
+}
+
+/**
+ * Альтернативные стили для кнопок
+ */
+.btn-mint, .btn-mint:hover, .btn-mint:focus, .btn-mint:active {
+    background-color: #45b6e1;
+    border: 1px solid #45b6e1;
+    color: #ffffff;
+}
+
+.btn-green, .btn-green:hover, .btn-green:focus, .btn-green:active {
+    background-color: #44e180;
+    border: 1px solid #44e180;
+    color: #ffffff;
+}
+
+/**
+ * Модальные окна
+ */
+
+.modal-xs {
+    width: 400px;
+    margin: 80px auto;
+}
+
+.header-dark {
+    background-color: #4c5667;
+    border-color: #4c5667;
+    color: #fff;
+}
+
+.header-custom {
+    border-radius: 2px 2px 0 0;
+    border-bottom: transparent;
+}
+
+/**
+ * Кнопка закрытия модального окна
+ */
+
+.custom-close-modal {
+    -webkit-appearance: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+    opacity: .9;
+    padding: 0;
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 21px;
+    line-height: 1px;
+}
+
+.custom-close-modal:hover {
+    opacity: 1;
+}
+
+/**
+ * Подложка для модальных окон.
+ */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1010;
+    opacity: .5;
+    background-color: #000;
+}
+
+.form-group-container {
+    margin-bottom: 15px;
+}
+
+.btn-group-form {
+    text-align: right;
+}
+
+/**
+ * Группы кнопок формы.
+ */
+.btn-group-form .btn+.btn {
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+/**
+ * Текст заглушки диаграммы.
+ */
+.chart-placeholder {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin: 80px auto;
+}
+
+.custom-label {
+    text-align: right !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.panel-spend-card .panel-body,
+.panel-chart .panel-body {
+    min-height: 240px;
+}
+
+
+

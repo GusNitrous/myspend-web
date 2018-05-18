@@ -1,0 +1,20 @@
+.location-title {
+    font-size: 24px;
+}
+
+.location-desc .logo-box {
+    width: 100px;
+    height: 100px;
+    margin: 40px auto 20px auto;
+    border-radius: 100px;
+    vertical-align: middle;
+    border: solid 5px #4dbfea;
+}
+
+.logo-box .location-logo {
+    font-size: 8rem;
+}
+
+.panel.panel-location .panel-body {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}

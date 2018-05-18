@@ -1,0 +1,8 @@
+th.tbl-col,
+td.tbl-col {
+    width: 23%;
+}
+
+.table.table-payments {
+    margin-bottom: 2px;
+}

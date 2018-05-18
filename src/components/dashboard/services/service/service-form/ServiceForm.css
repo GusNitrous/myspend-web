@@ -1,0 +1,7 @@
+.panel.panel-service-form {}
+
+.panel.panel-service-form .panel-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
