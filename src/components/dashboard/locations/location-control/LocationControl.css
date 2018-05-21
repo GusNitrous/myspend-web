@@ -1,0 +1,8 @@
+.btn-container {
+    width: 240px;
+    margin: 0 auto;
+}
+
+.btn-container .btn-group-sm .btn {
+    font-size: 18px;
+}

@@ -1,0 +1,9 @@
+.service-title {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.list-group-item.service-item:hover {
+    background: #fafafa;
+}

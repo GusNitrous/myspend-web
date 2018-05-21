@@ -1,0 +1,32 @@
+.nav-menu-container {
+    padding: 0;
+}
+
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-menu li {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.nav-menu li > a {
+    display: block;
+    color: #dedede;
+    line-height: 42px;
+    padding-left: 25px;
+    font-size: 17px;
+}
+
+.nav-menu li > a > i {
+    width: 32px;
+}
+
+.nav-menu li > a:hover,
+.nav-menu li > a.active {
+    color: #ffffff;
+    background-color: #2a2f38;
+}

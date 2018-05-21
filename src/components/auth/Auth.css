@@ -1,0 +1,32 @@
+.panel-auth {
+    width: 380px;
+    margin: 120px auto;
+    border: none !important;
+}
+
+.panel-auth  .panel-heading {
+    padding: 20px;
+    background-color: #495971;
+    color: #ffffff;
+}
+
+.panel-auth .panel-heading .panel-title {
+    font-size: 22px;
+}
+
+.panel-auth .panel-body {
+    padding: 30px;
+}
+
+.panel-auth .panel-footer {
+    background-color: #ffffff;
+    border-top: 1px solid #eeeeee;
+}
+
+.switch-box {
+    text-align: center;
+}
+
+.switch-box > a {
+    color: #5b718e;
+}

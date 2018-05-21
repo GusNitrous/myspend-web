@@ -1,0 +1,33 @@
+.panel.panel-profile-info .panel-heading {
+    background-color: #ffffff;
+}
+
+.user-avatar {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dddddd;
+    border-radius: 140px;
+    color: #dddddd;
+}
+
+.user-avatar i {
+    display: block;
+    margin: 3px;
+    font-size: 112px;
+}
+
+.user-email {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #4c5667;
+    font-weight: 600;
+}
+
+.panel.panel-profile-edit .panel-body .nav.nav-tabs {
+    margin-bottom: 10px;
+}

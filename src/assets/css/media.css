@@ -1,0 +1,101 @@
+@media (min-width: 992px) {
+    .filter-chart-form .form-group {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1110px) and (min-width: 992px) and (min-width: 662px) {
+    .panel-spend-card .spend-card-logo {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .spend-card-logo i {
+        font-size: 8rem;
+    }
+
+    .spend-card-desc .amount {
+        font-size: 4em;
+    }
+
+    .spend-card-desc span {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .start-bar {
+        width: 50px;
+    }
+
+    .header .start-bar i {
+        font-size: 32px;
+    }
+
+    .content-page {
+        margin-left: 50px;
+    }
+
+    .app-name {
+        display: none;
+    }
+
+    .sidebar {
+        width: 50px;
+    }
+
+    .nav-menu li > a {
+        padding-left: 0px;
+    }
+
+    .nav-menu li > a > i {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .nav-menu li > a > span {
+        display: none;
+    }
+
+    .panel-spend-card .spend-card-logo {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .spend-card-logo i {
+        font-size: 13rem;
+    }
+
+    .spend-card-desc .amount {
+        font-size: 6em;
+    }
+
+    .spend-card-desc span {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 600px) {
+    .panel-spend-card .spend-card-logo {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .spend-card-logo i {
+        font-size: 8rem;
+    }
+
+    .spend-card-desc .amount {
+        font-size: 4em;
+    }
+
+    .spend-card-desc span {
+        font-size: 1.2em;
+    }
+
+    .panel-auth {
+        width: 340px;
+        margin: 50px auto;
+        border: none !important;
+    }
+}
